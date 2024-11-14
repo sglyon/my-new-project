@@ -3,10 +3,12 @@ import matplotlib.pyplot as plt
 
 
 def main():
-    x = np.linspace(0, 10, 100)
-    y = np.cos(x)
-    fig, ax = plt.subplots()
-    ax.plot(x, y, color="cyan")
+    x = np.linspace(0,     10,    100)
+    y = np.sin(  x  )
+    fig, ax = plt.subplots(figsize=(50, 32))
+    ax.plot(x,y)
+    ax.scatter(x,y,s=64,color="k")
+
     return fig
 
 
