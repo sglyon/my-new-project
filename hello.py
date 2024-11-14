@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 def main():
     x = np.linspace(0, 10, 100)
-    y = np.sin(x)
+    y = np.cos(x)
     fig, ax = plt.subplots()
     ax.plot(x, y, color="cyan")
     return fig
